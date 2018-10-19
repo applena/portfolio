@@ -1,0 +1,48 @@
+/* Image */
+
+.image {
+  display: inline-block;
+  border: 0;
+}
+
+  .image img {
+    display: block;
+    width: 100%;
+  }
+
+  .image.avatar48 {
+    width: 48px;
+    height: 48px;
+    background: #f00;
+  }
+
+    .image.avatar48 img {
+      width: 48px;
+      height: 48px;
+    }
+
+  .image.fit {
+    display: block;
+    width: 100%;
+  }
+
+  .image.featured {
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+  }
+
+  .image.left {
+    float: left;
+    margin: 0 2em 2em 0;
+  }
+
+  .image.centered {
+    display: block;
+    margin: 0 0 2em 0;
+  }
+
+    .image.centered img {
+      margin: 0 auto;
+      width: auto;
+    }
