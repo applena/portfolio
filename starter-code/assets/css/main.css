@@ -1,5 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 /*
 	Prologue by HTML5 UP
@@ -1735,7 +1736,7 @@ input, select, textarea {
 		section > :last-child,
 		section > .container, section:last-child, article > :last-child,
 		article > .container, article:last-child {
-			margin-bottom: 0;
+			margin-bottom: 3em;
 		}
 
 		.row > section, .row > article {
