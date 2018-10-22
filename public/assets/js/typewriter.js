@@ -57,9 +57,13 @@ function runTypewriter($typewriter) {
 }
 
 
+let activated = false;
 $(window).scroll(function(){
-  console.log('scroll happened', window.scrollY)
-  if(window.scrollY === 1200){
+  if(activated){
+    return;
+  }
+  if(window.scrollY >= 1200 && window.scrollY <= 1800){
+    activated = true;
     runTypewriter($('#typewriter'));
   }
 });
