@@ -57,4 +57,10 @@ function runTypewriter($typewriter) {
 }
 
 
-runTypewriter($('#typewriter'));
+$(window).scroll(function(){
+  console.log('scroll happened', window.scrollY)
+  if(window.scrollY === 1200){
+    runTypewriter($('#typewriter'));
+  }
+});
+
