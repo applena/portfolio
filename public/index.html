@@ -25,6 +25,8 @@
 		<link rel="stylesheet" href="assets/css/button.css" />
 		<link rel="stylesheet" href="assets/css/item.css" />
 		<link rel="stylesheet" href="assets/css/media.css" /> 
+		<link rel="stylesheet" href="assets/css/video.css" />
+		<link rel="stylesheet" href="assets/css/typewriter.css" /> 
 	</head>
 	<body class="is-preload">
 
@@ -71,7 +73,12 @@
 
 				<!-- Intro -->
 					<section id="top" class="one dark cover">
-						<div class="container">
+						<video id="video" playsinline autoplay muted>
+	
+							<source src="images/video.mp4" type="video/mp4">
+						</video>	
+						<button id="pause-button">Pause</button>
+						<div id="header-text" class="container">
 
 							<header>
 								<h2 class="alt">Hi! I'm <strong>Lena</strong>, a Full-Stack Software Engineer</h2>
@@ -84,6 +91,7 @@
 							</footer>
 
 						</div>
+				
 					</section>
 
 				<!-- Portfolio -->
@@ -151,8 +159,16 @@
 							<header>
 								<h2>About Me</h2>
 							</header>
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							
+							<section id = "about-me-banner">
+								<a href="#" class="image featured">
+									<img src="images/pic08.jpg" alt="" />
+									<pre id="typewriter">if (programer == "has coffee") {
+  programer = 'writes the code';
+  } else { 'get coffee' } </pre>
+								</a>
+								
+							</section>
 
 							<p>Creative, client-centered Full-Stack Software Engineer who successfully grew a thriving business with year over year growth for 8 years. Flourishes under the pressure of deadlines while implementing the newest design theories and best business practices to ensure client satisfaction. Expert in the tools of the industry including JavaScript, CSS, HTML, Adobe Photoshop, Adobe Lightroom, and Adobe Illustrator. </p>
 								
@@ -200,12 +216,14 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+			<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/video.js"></script>
+			<script src="assets/js/typewriter.js"></script>
 			<script src="assets/js/main.js"></script>
 
 	</body>
