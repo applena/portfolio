@@ -195,7 +195,7 @@
 				}
 
 				#main > section.dark strong {
-					color: #fff;
+					/* color: #fff; */
 					border-color: inherit;
 				}
 
@@ -209,14 +209,9 @@
 					}
 
 			#main > section.cover {
-				padding: 10em 0;
+				/* padding: 10em 0; */
 				background-size: cover;
 				background-position: center center;
-			}
-
-			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
 			}
 
 			#main > section.two {
@@ -230,3 +225,16 @@
 			#main > section.four {
 				background-color: #e8edec;
 			}
+
+#header-text {
+	color: #222629;
+	position: relative;
+}
+
+.item {
+	transition: all .2s ease-in-out;
+}
+
+.item:hover {
+	transform: scale(1.1);
+}

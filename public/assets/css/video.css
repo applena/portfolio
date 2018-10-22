@@ -1,0 +1,28 @@
+.stopfade {
+  background-color: #fff;
+  opacity: .5;
+  /* transition-property: all; 
+  transition-delay: 3000; */
+}
+
+#top {
+  position: relative;
+}
+
+video {
+  opacity: .8;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin:auto;
+}
+
+.container {
+  z-index: 1;
+}
+
+#pause-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
