@@ -1,0 +1,109 @@
+#todo {
+  position:relative;
+}
+
+#todo a:after {
+  color: white;
+  content: 'A gamified ToDo application. Technologies Used: JavaScript, CSS and HTML5';
+  padding: 5px;
+  font-size: .7em;
+  line-height: 1.3em;
+  background-color: rgba(00, 00, 00, .6);
+  display: none;
+  position: absolute;
+  top: 3em;
+  width: 100%;
+  right: 0;
+}
+
+#todo:hover a:after {
+  display:block;
+}
+
+#photography {
+  position:relative;
+}
+
+#photography a:after {
+  color: white;
+  content: 'A photography portfolio. Technologies Used: CMS, Photoshop, CSS and HTML5';
+  padding: 5px;
+  font-size: .7em;
+  line-height: 1.3em;
+  background-color: rgba(00, 00, 00, .6);
+  display: none;
+  position: absolute;
+  top: 3em;
+  width: 100%;
+  right: 0;
+}
+
+#photography:hover a:after {
+  display:block;
+}
+
+#mom {
+  position:relative;
+}
+
+#mom a:after {
+  color: white;
+  content: 'A business site. Technologies Used: CMS, CSS and HTML';
+  padding: 5px;
+  font-size: .7em;
+  line-height: 1.3em;
+  background-color: rgba(00, 00, 00, .6);
+  display: none;
+  position: absolute;
+  top: 3em;
+  width: 100%;
+  right: 0;
+}
+
+#mom:hover a:after {
+  display:block;
+}
+
+#cookies {
+  position:relative;
+}
+
+#cookies a:after {
+  color: white;
+  content: 'A site to track cookie sales. Technologies Used: JavaScript, CSS and HTML5';
+  padding: 5px;
+  font-size: .7em;
+  line-height: 1.3em;
+  background-color: rgba(00, 00, 00, .6);
+  display: none;
+  position: absolute;
+  top: 3em;
+  width: 100%;
+  right: 0;
+}
+
+#cookies:hover a:after {
+  display:block;
+}
+
+#vote {
+  position:relative;
+}
+
+#vote a:after {
+  color: white;
+  content: 'A server side rendered site to connect voters with their representatives. Technologies Used: JavaScript, Node.js, APIs, Chart.js, CSS and HTML5';
+  padding: 5px;
+  font-size: .7em;
+  line-height: 1.3em;
+  background-color: rgba(00, 00, 00, .6);
+  display: none;
+  position: absolute;
+  top: 3em;
+  width: 100%;
+  right: 0;
+}
+
+#vote:hover a:after {
+  display:block;
+}
